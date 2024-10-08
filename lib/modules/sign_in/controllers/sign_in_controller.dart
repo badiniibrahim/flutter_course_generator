@@ -23,7 +23,8 @@ class SignInController extends GetxController with SignInInputValidationMixin {
       return;
     }
     try {
-      final credential = await signInUseCase.execute(AuthParams(
+      final credential = await signInUseCase.call(
+          params: AuthParams(
         email: state.emailTextController.text.trim(),
         password: state.passwordTextController.text.trim(),
       ));

@@ -1,5 +1,6 @@
 import 'package:course_generator/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 class Initializer {
@@ -10,6 +11,7 @@ class Initializer {
       await _initStorage();
       await _initEnvironment();
       await intMobileAds();
+      await setPreferredOrientations();
     } catch (err) {
       rethrow;
     }
@@ -34,5 +36,14 @@ class Initializer {
   static Future<void> intMobileAds() async {
     /*final initAdFuture = MobileAds.instance.initialize();
     Get.put(AdMobService(initAdFuture));*/
+  }
+
+  static Future<void> setPreferredOrientations() {
+    return SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
   }
 }

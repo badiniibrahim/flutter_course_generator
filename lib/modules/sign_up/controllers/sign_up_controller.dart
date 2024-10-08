@@ -25,14 +25,14 @@ class SignUpController extends GetxController with SignUpInputValidationMixin {
       return;
     }
     try {
-      final credential = await signUpUseCase.execute(
-        AuthParams(
+      final credential = await signUpUseCase.call(
+        params: AuthParams(
           email: state.emailTextController.text.trim(),
           password: state.passwordTextController.text.trim(),
           username: state.userNameTextController.text.trim(),
         ),
       );
-      await createUserUseCase.execute(credential);
+      await createUserUseCase.call(params: credential);
     } catch (e) {
       if (kDebugMode) {
         print("error $e");

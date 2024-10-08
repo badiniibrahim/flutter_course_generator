@@ -1,17 +1,19 @@
-import 'package:course_generator/core/param_usecase.dart';
+import 'dart:async';
+
+import 'package:course_generator/core/domain/use_case.dart';
 import 'package:course_generator/domain/entities/auth_params.dart';
 import 'package:course_generator/domain/entities/auth_user.dart';
 import 'package:course_generator/domain/repositories/auth/sign_up_repository.dart';
 
-class SignUpUseCase extends ParamUseCase<AuthUser, AuthParams> {
+class SignUpUseCase extends UseCase<AuthUser, AuthParams> {
   final SignUpRepository signUpRepository;
 
   SignUpUseCase({required this.signUpRepository});
 
   @override
-  Future<AuthUser> execute(param) {
+  FutureOr<AuthUser> call({required AuthParams params}) {
     try {
-      return signUpRepository.signUp(params: param);
+      return signUpRepository.signUp(params: params);
     } on ArgumentError catch (error) {
       throw Exception(error);
     } catch (error) {
