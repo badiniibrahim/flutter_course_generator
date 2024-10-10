@@ -107,7 +107,7 @@ class SignUpView extends GetView<SignUpController> {
                                 "auth_sign_up".tr,
                                 style: const TextStyle(
                                   color: Colors.white,
-                                  fontFamily: 'Sora',
+                                  fontFamily: 'Gilroy',
                                 ),
                               )),
                       ),

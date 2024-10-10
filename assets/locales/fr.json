@@ -1,14 +1,5 @@
 {
-  "onboardingPage": {
-    "page_1_title": "Un Monde Fantastique Vous Attend",
-    "page_2_title": "Vivez des Aventures Magiques",
-    "page_3_title": "Voyagez dans le futur avec des histoires de mondes imaginaires.",
-    "page_1_description": "Transportez vos enfants dans un univers où la magie prend vie.",
-    "page_2_description": "Invitez vos enfants à explorer des royaumes lointains.",
-    "page_3_description": "Découvrez des récits fascinants où les technologies de demain et les extraterrestres se mêlent à l'imagination de vos enfants.",
-    "btn_continue": "Continue",
-    "btn_started": "Commencer"
-  },
+  "onboardingPage": {},
 
   "button": {
     "btn_continue": "Continue",
@@ -43,30 +34,6 @@
     "year": "année"
   },
 
-  "story": {
-    "english_text": "Anglais",
-    "french_text": "Francais",
-    "title": "Nouvelle histoire",
-    "subtitle": "Choisissez la durée de l'histoire",
-    "short_title": "Court",
-    "average_text": "Moyen",
-    "long_text": "Long",
-    "ending_text_title": "Où se déroulera l'action ?",
-    "genre_title": "Sélectionnez le genre d'histoire",
-    "language_title": "Sélectionnez la langue de l'histoire",
-    "btn_generate": "Générer",
-    "generate_message": "Génération en cours. Cela peut prendre quelques minutes.",
-    "credit_message_title": "Crédit insuffisant",
-    "credit_message_message": "Veuillez recharger votre compte en visitant la boutique",
-    "premium_text": "Félicitations ! Vous êtes passé à la version premium.",
-    "duration_error": "Vous devez sélectionner la durée de l'histoire",
-    "error_title": "Erreur",
-    "language_error": "Vous devez sélectionner une langue pour continuer.",
-    "genre_error": "Vous devez sélectionner un genre pour continuer.",
-    "action_error": "Vous devez sélectionner une action pour continuer.",
-    "waiting_generate_message": "Veuillez patienter, s'il vous plaît, et rester sur cette page."
-  },
-
   "task": {
     "title": "Tâche",
     "subtitle": "Regardez une vidéo publicitaire pour gagner 1 pièce supplémentaires !",
@@ -76,50 +43,6 @@
     "2_coins": "1 pièce",
     "reward_text": "Vous avez reçu 1 pièce",
     "count_down_text": "Prochaine vidéo disponible dans"
-  },
-
-  "genre": {
-    "Educational": "Éducatif",
-    "Fantastic": "Fantastique",
-    "Mystery": "Mystère",
-    "fairy_tale": "Conte de fées",
-    "Thriller": "Thriller",
-    "Adventure": "Aventure",
-    "Historical": "Historique",
-    "Comedy": "Comédie",
-    "Time_travel_story": "Histoire de voyage dans le temps",
-    "Mythology_dragon": "Dragon de la mythologie",
-    "Science_fiction": "Science fiction",
-    "Select_story_genre": "Sélectionnez le genre d'histoire",
-    "Where_will": "Sélectionner où se déroulera l'action.",
-    "forest_animals": "Animaux de la forêt",
-    "the_frog": "La grenouille qui rêvait de voler",
-    "the_fox": "Le Renard et la Lanterne Magique",
-    "the_mystery": "Le Mystère de la Forêt Interdite",
-    "the_little": "Le Petit Magicien et l’Étoile de Cristal",
-    "the_Cat": "Le Chat qui voulait être un roi",
-    "the_legend": "La Légende de la Forêt Magique",
-    "mimi": "Le Grand Voyage de Mimi la Souris",
-    "girl": "La Petite Fille qui voulait toucher les étoiles",
-    "zara": "Zara et le Vaisseau du Temps"
-  },
-
-  "ending": {
-    "pirate_ship": "Navire pirate",
-    "wizard_school": "École de sorcellerie",
-    "city_Park": "Parc municipal",
-    "underwater_city": "Ville sous-marine",
-    "school": "École",
-    "dinosaur_valley": "Vallée des dinosaures",
-    "haunted_house": "Maison hantée",
-    "a_magical_circus": "Un cirque magique",
-    "an_enchanted_library": "Une bibliothèque enchantée",
-    "a_space_station": "Une station spatiale",
-    "ancient_ruins": "Ruines anciennes",
-    "fantastic_amusement": "Parc d'attractions fantastique",
-    "tropical_beach": "Plage tropical",
-    "underground_kingdom": "Royaume sous terre",
-    "mysterious_mountain": "Montagne mystérieuse"
   },
 
   "auth": {
@@ -150,40 +73,5 @@
     "forgot_sub_title": "Ne vous inquiétez pas ! Ça arrive. Veuillez entrer l'email associé à votre compte.",
     "btn_text": "Envoyer",
     "empty_fields": "Certains champs sont vides. Veuillez les remplir."
-  },
-  "history": {
-    "title": "Mes histoires",
-    "chapter_title": "Chapitre",
-    "end_text": "Fin de l'histoire",
-    "start_text": "Commencer un autre",
-    "empty_list": "Vous n'avez pas encore enregistré d'histoire à ce jour.",
-    "close_btn": "Fermer"
-  },
-  "profile": {
-    "title": "Profil",
-    "logout_title": "Déconnexion",
-    "logout_message": "Voulez-vous vraiment vous déconnecter ?",
-    "text_yes": "Oui",
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions générales"
-  },
-
-  "recipe": {
-    "people_number": "Pour combien de personnes cuisinez-vous ?",
-    "peoples": "Personnes : ",
-    "people": "Personne : ",
-    "cook_time": "Combien de temps voulez-vous cuisiner (min) ?",
-    "empty_image": "Aucune image sélectionnée",
-    "create_meal": "Créer mon repas",
-    "text_step_text": "Étape",
-    "next_step": "Étape suivante",
-    "select_time": "Selectionner la dureé de cuisson",
-    "take_picture": "Téléchargez ou prenez une photo des ingrédients",
-    "choose_people": "Choisissez le nombre de personne",
-    "details": "Details",
-    "ingredients": "Ingredients",
-    "instructions": "Instructions",
-    "recipe_name": "Nom de la recette : ",
-    "recipe_date": "Créé le : "
   }
 }

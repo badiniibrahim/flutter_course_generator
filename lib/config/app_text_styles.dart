@@ -5,13 +5,13 @@ class AppTextStyles {
     fontSize: 20,
     fontWeight: FontWeight.w900,
     color: Colors.black,
-    fontFamily: "Sora",
+    fontFamily: "Gilroy",
   );
 
   static TextStyle body = const TextStyle(
     fontSize: 14,
     color: Colors.black,
-    fontFamily: "Sora",
+    fontFamily: "Gilroy",
     fontWeight: FontWeight.w300,
   );
 }

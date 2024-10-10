@@ -1,14 +1,5 @@
 {
-  "onboardingPage": {
-    "page_1_title": "A Fantastic World Awaits",
-    "page_2_title": "Experience Magical Adventures",
-    "page_3_title": "Travel into the future with stories of imaginary worlds.",
-    "page_1_description": "Transport your children to a world where magic comes to life.",
-    "page_2_description": "Invite your children to explore distant realms.",
-    "page_3_description": "Discover captivating tales where tomorrow's technologies and aliens blend with your children's imagination.",
-    "btn_continue": "Continue",
-    "btn_started": "Get Started"
-  },
+  "onboardingPage": {},
   "button": {
     "btn_continue": "Continue",
     "btn_started": "Get Started"
@@ -41,29 +32,7 @@
     "month": "month",
     "year": "year"
   },
-  "story": {
-    "english_text": "English",
-    "french_text": "French",
-    "title": "New Story",
-    "subtitle": "Choose the story length",
-    "short_title": "Short",
-    "average_text": "Medium",
-    "long_text": "Long",
-    "ending_text_title": "Where will the story take place?",
-    "genre_title": "Select the story genre",
-    "language_title": "Select the story language",
-    "btn_generate": "Generate",
-    "generate_message": "Generation in progress. This may take a few minutes.",
-    "credit_message_title": "Insufficient credit",
-    "credit_message_message": "Please recharge your account by visiting the shop",
-    "premium_text": "Congratulations! You have upgraded to the premium version.",
-    "duration_error": "You must select the duration of the story.",
-    "error_title": "Error",
-    "language_error": "You must select a language to continue.",
-    "genre_error": "You must select a genre to continue.",
-    "action_error": "You must select an action to continue.",
-    "waiting_generate_message": "Please be patient and stay on this page."
-  },
+
   "task": {
     "title": "Task",
     "subtitle": "Watch an ad to earn 1 extra coin!",
@@ -73,49 +42,6 @@
     "2_coins": "1 coins",
     "reward_text": "You received 1 coin",
     "count_down_text": "Next video available in"
-  },
-  "genre": {
-    "Educational": "Educational",
-    "Fantastic": "Fantastic",
-    "Mystery": "Mystery",
-    "fairy_tale": "Fairy Tale",
-    "Thriller": "Thriller",
-    "Adventure": "Adventure",
-    "Historical": "Historical",
-    "Comedy": "Comedy",
-    "Time_travel_story": "Time Travel Story",
-    "Mythology_dragon": "Mythological Dragon",
-    "Science_fiction": "Science Fiction",
-    "Select_story_genre": "Select story genre",
-    "Where_will": "Select where the action will take place",
-    "forest_animals": "Forest animals",
-    "the_frog": "The Frog Who Dreamed of Flying",
-    "the_fox": "The Fox and the Magic Lantern",
-    "the_mystery": "The Mystery of the Forbidden Forest",
-    "the_little": "The Little Magician and the Crystal Star",
-    "the_Cat": "The Cat Who Would Be a King",
-    "the_legend": "The Legend of the Magic Forest",
-    "mimi": "Mimi the Mouse's Great Journey",
-    "girl": "The Little Girl Who Wanted to Touch the Stars",
-    "zara": "Zara and the Time Ship"
-  },
-
-  "ending": {
-    "pirate_ship": "Pirate Ship",
-    "wizard_school": "Wizard School",
-    "city_Park": "City Park",
-    "underwater_city": "Underwater City",
-    "school": "School",
-    "dinosaur_valley": "Dinosaur Valley",
-    "haunted_house": "Haunted House",
-    "a_magical_circus": "A Magical Circus",
-    "an_enchanted_library": "An Enchanted Library",
-    "a_space_station": "A Space Station",
-    "ancient_ruins": "Ancient Ruins",
-    "fantastic_amusement": "Fantastic Amusement Park",
-    "tropical_beach": "Tropical Beach",
-    "underground_kingdom": "Underground Kingdom",
-    "mysterious_mountain": "Mysterious Mountain"
   },
 
   "auth": {
@@ -148,14 +74,6 @@
     "empty_fields": "Some fields are empty. Please fill them in."
   },
 
-  "history": {
-    "title": "My stories",
-    "chapter_title": "Chapter",
-    "end_text": "End of story",
-    "start_text": "Start another",
-    "empty_list": "You have not recorded any story so far.",
-    "close_btn": "Close"
-  },
   "profile": {
     "title": "Profile",
     "logout_title": "Logout",
@@ -164,19 +82,22 @@
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions"
   },
-  "recipe": {
-    "people_number": "How many people are you cooking for ?",
-    "peoples": "People : ",
-    "people": "People : ",
-    "cook_time": "How long do you want to cook (mn) ? ",
-    "empty_image": "No image selected",
-    "create_meal": "Create My Meal",
+  "category": {
+    "choose_category": "Choose a category",
     "text_step_text": "Step",
-    "next_step": "Next step",
-    "select_time": "Select cooking time",
-    "take_picture": "Upload or take a picture of the ingredients",
-    "choose_people": "Choose the number of people",
-    "recipe_name": "Recipe Name : ",
-    "recipe_date": "Created on : "
+    "desc": "Description",
+    "topic_title": "Topic",
+    "topic_desc": "Write the topic for which you want to generate a course",
+    "about": "About your course",
+    "about_desc": "Tell us more about yours course, what you want to include in the course (Optional)",
+    "option": "Difficulty level",
+    "level": "Difficulty level",
+    "duration": "Course duration",
+    "no_chapter": "Number of chapters",
+    "chapters": "chapters ",
+    "chapter": "chapter ",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advance": "Advance"
   }
 }

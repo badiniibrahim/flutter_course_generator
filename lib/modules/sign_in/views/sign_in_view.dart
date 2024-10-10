@@ -113,7 +113,7 @@ class SignInView extends GetView<SignInController> {
                                   "auth_sign_in_text".tr,
                                   style: const TextStyle(
                                     color: Colors.white,
-                                    fontFamily: 'Sora',
+                                    fontFamily: 'Gilroy',
                                   ),
                                 ),
                         ),

@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 
 class RxTextFormField extends StatelessWidget {
   const RxTextFormField({
-    Key? key,
+    super.key,
     required this.name,
     required this.controller,
     this.fieldKey,
@@ -21,7 +21,7 @@ class RxTextFormField extends StatelessWidget {
     this.textInputAction,
     this.autocorrect = true,
     this.autovalidateMode = AutovalidateMode.onUserInteraction,
-  }) : super(key: key);
+  });
 
   final Key? fieldKey;
   final String name;
@@ -87,7 +87,7 @@ class RxTextFormField extends StatelessWidget {
           hintText: name,
           hintStyle: const TextStyle(
             color: Colors.black,
-            fontFamily: 'Sora',
+            fontFamily: 'Gilroy',
           ),
         ),
         onTap: onTap,

@@ -68,7 +68,6 @@ dependencies:
   uuid: ^4.5.1
   equatable: ^2.0.5
   tuple: ^2.0.2
-  easy_stepper: ^0.8.5+1
 
 dev_dependencies:
   flutter_test:
@@ -92,16 +91,17 @@ flutter:
   uses-material-design: true
 
   fonts:
-    - family: Sora
+    - family: Gilroy
       fonts:
-        - asset: assets/fonts/Sora-Bold.ttf
-          weight: 900
-        - asset: assets/fonts/Sora-Regular.ttf
-        - asset: assets/fonts/Sora-ExtraBold.ttf
-        - asset: assets/fonts/Sora-Thin.ttf
-          weight: 400
-        - asset: assets/fonts/Sora-SemiBold.ttf
+        - asset: assets/fonts/Gilroy-Bold.ttf
           weight: 300
+        - asset: assets/fonts/Gilroy-Heavy.ttf
+          weight: 100
+        - asset: assets/fonts/Gilroy-Light.ttf
+          weight: 600
+        - asset: assets/fonts/Gilroy-Medium.ttf
+        - asset: assets/fonts/Gilroy-Regular.ttf
+          weight: 200
 
   assets:
     - assets/images/
